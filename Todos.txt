@@ -1,0 +1,9 @@
+- add usecases
+- add circuit breaker and retry mechanism for database
+- only update the changed values
+- mvvm implementation is not perfect. Might be possible to improve it with more command usage.
+- Missing unit tests
+- Integration tests
+- Moving sql queries into .sql files might enable testing them seperately.
+- Replace Entity model's primitive properties with specific classes or structs. i.e there should be a class/struct called EntityId.
+- Validation for data models are missing.

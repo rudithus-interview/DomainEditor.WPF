@@ -1,0 +1,6 @@
+*.user
+bin/
+obj/
+packages/
+.vs/
+/_NCrunch_InterviewAssessment

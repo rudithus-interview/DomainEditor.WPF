@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{70F30F7F-51CC-4FBC-86EE-3EE56183766D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2A9B1792-4884-4BA6-9239-E21810C8103E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{82056BB6-284D-4C64-8B8F-C2D804FF3DF8}"
+	ProjectSection(SolutionItems) = preProject
+		Todos.txt = Todos.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewAssessment.App", "InterviewAssessment.App\InterviewAssessment.App.csproj", "{997A2820-A70F-4A1B-A6E2-F2AA2A04BBB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewAssessment.Tests", "InterviewAssessment.Tests\InterviewAssessment.Tests.csproj", "{2352AEBC-3F3F-49CA-AFA1-5AC586932618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewAssessment", "InterviewAssessment\InterviewAssessment.csproj", "{85AC589A-4449-4CFD-8E02-5625EB0CC990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewAssessment.Tests.Adapters.Persistence.InMemory", "InterviewAssessment.Tests.Adapters.Persistence.InMemory\InterviewAssessment.Tests.Adapters.Persistence.InMemory.csproj", "{57BF8537-A5F5-40DC-B75B-ADFE50AED413}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{E1979ACD-AC2C-4EF2-B893-6154013B2BF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewAssessment.Adapters.Persistence.InMemory", "InterviewAssessment.Adapters.Persistence.InMemory\InterviewAssessment.Adapters.Persistence.InMemory.csproj", "{B74A6EBE-9864-4500-BBC1-920B4391B329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewAssessment.Adapters.Persistence.SqlLite", "InterviewAssessment.Adapters.Persistence.SqlLite\InterviewAssessment.Adapters.Persistence.SqlLite.csproj", "{16A14EBA-B1BE-4E8D-91BD-A628DAEC97D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{997A2820-A70F-4A1B-A6E2-F2AA2A04BBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997A2820-A70F-4A1B-A6E2-F2AA2A04BBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997A2820-A70F-4A1B-A6E2-F2AA2A04BBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997A2820-A70F-4A1B-A6E2-F2AA2A04BBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2352AEBC-3F3F-49CA-AFA1-5AC586932618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2352AEBC-3F3F-49CA-AFA1-5AC586932618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2352AEBC-3F3F-49CA-AFA1-5AC586932618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2352AEBC-3F3F-49CA-AFA1-5AC586932618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85AC589A-4449-4CFD-8E02-5625EB0CC990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85AC589A-4449-4CFD-8E02-5625EB0CC990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85AC589A-4449-4CFD-8E02-5625EB0CC990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85AC589A-4449-4CFD-8E02-5625EB0CC990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57BF8537-A5F5-40DC-B75B-ADFE50AED413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BF8537-A5F5-40DC-B75B-ADFE50AED413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BF8537-A5F5-40DC-B75B-ADFE50AED413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BF8537-A5F5-40DC-B75B-ADFE50AED413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74A6EBE-9864-4500-BBC1-920B4391B329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74A6EBE-9864-4500-BBC1-920B4391B329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74A6EBE-9864-4500-BBC1-920B4391B329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74A6EBE-9864-4500-BBC1-920B4391B329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A14EBA-B1BE-4E8D-91BD-A628DAEC97D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A14EBA-B1BE-4E8D-91BD-A628DAEC97D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A14EBA-B1BE-4E8D-91BD-A628DAEC97D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A14EBA-B1BE-4E8D-91BD-A628DAEC97D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{997A2820-A70F-4A1B-A6E2-F2AA2A04BBB9} = {70F30F7F-51CC-4FBC-86EE-3EE56183766D}
+		{2352AEBC-3F3F-49CA-AFA1-5AC586932618} = {2A9B1792-4884-4BA6-9239-E21810C8103E}
+		{85AC589A-4449-4CFD-8E02-5625EB0CC990} = {70F30F7F-51CC-4FBC-86EE-3EE56183766D}
+		{57BF8537-A5F5-40DC-B75B-ADFE50AED413} = {2A9B1792-4884-4BA6-9239-E21810C8103E}
+		{E1979ACD-AC2C-4EF2-B893-6154013B2BF6} = {70F30F7F-51CC-4FBC-86EE-3EE56183766D}
+		{B74A6EBE-9864-4500-BBC1-920B4391B329} = {E1979ACD-AC2C-4EF2-B893-6154013B2BF6}
+		{16A14EBA-B1BE-4E8D-91BD-A628DAEC97D2} = {E1979ACD-AC2C-4EF2-B893-6154013B2BF6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA33CF18-FFCB-4F9F-A485-4F62AE3B3F90}
+	EndGlobalSection
+EndGlobal
